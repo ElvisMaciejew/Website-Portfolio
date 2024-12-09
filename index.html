@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Portfolio Website</title>
+<style>
+  
+
+  body {
+     background-image: url('IMG_5028.jpeg');
+    background-size: cover;
+   
+
+  }
+
+#section0 {
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 800px;
+  }
+  #section1 {
+    background-color: rgba(50, 50, 50, 0.4);
+  }
+  #section2 {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+    #section3 {
+    background-color: rgba(50, 50, 50, 0.4);
+  }
+  #section4 {
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  h1 {
+    font-family: "Christian Robertson", "Roboto", serif;
+    font-size: 1.5em;
+    display: flex;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+
+h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin: 1em;
+font-family: 'Bebas Neue', serif;
+  }
+
+  h2 {
+    font-size: 2em;
+    margin-top: 2em;
+  }
+
+  h3 {
+    font-size: 1.8em;
+    margin-bottom: 2em;
+  }
+  h4, h5, h6 {
+    font-size: 1.5em;
+    background-color: white;
+    padding: 0.5em;
+  }
+
+p {
+    margin: 1em auto;
+    max-width: 800px;
+    padding: 1em;
+  }
+
+.para1, .para2, .para3, .para4, .para5 {
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    line-height: 1.8;
+font-family: 'Bebas Neue', serif;
+     }
+
+/*  Copy<!—
+ Code copied from: [https://www.w3schools.com/css/css3_flexbox.asp]
+ Author: [W3Schools]
+Name: [CSS Flexbox]
+Description: [Used flex-container for some of my images in the previous work section]
+Date retrieved: [2024-12-08]
+—>*/
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+
+  }
+   .flex-container img {
+    width: 30%;
+    max-width: 200px;
+    height: auto;
+}
+img {
+    display: table; 
+    margin: 1em auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+   @media only screen and (max-width: 768px) {
+    h1 {
+      flex-direction: column;
+    }
+  }
+ @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.2em;
+    }
+ }
+  /* Comments*/
+  a {
+  background-color: rgba(255, 255, 255, 0.8); 
+  display: table; 
+  text-align: center;
+  font-size: 18px; 
+  margin: 10px; 
+  padding: 10px 20px; 
+  text-decoration: none; 
+  color: black; 
+  width: 100%; 
+  }
+}
+
+.clickable-font {
+            font-family: 'Bebas Neue', serif;
+        }
+  
+</style>
+</head>
+ <a href="#section0" class="clickable-font">Home</a>
+    <a href="#section1" class="clickable-font">About Me</a>
+    <a href="#section2" class="clickable-font">Previous Work</a>
+    <a href="#section3" class="clickable-font">Interests</a>
+    <a href="#section4" class="clickable-font">Contact</a>
+
+<div class="section0">
+  <h2>ELVIS</h2>
+<h3>MACIEJEWSKI</h3>
+<img src="IMG_0648.jpeg" alt="Home Page 1" width="460"height="345">
+<p class="para1">
+  "Always striving to improve on my digital art and graphic design skills"
+</p>
+</h1>
+</div>
+<div class="section1">
+<h4>About Me</h4>
+<img src="IMG_8447.jpeg" alt="About Me 1" width="460"height="345">
+
+<p class="para2">
+  Hi, my name is Elvis Maciejewski and I am a Global Business and Digital Arts student at the University of Waterloo. 
+  I am currently in my second year and always learning new ways to improve my graphic design skills. 
+  I love designing posters, but I also have experience with creating video and computer games. 
+</p> 
+</div>
+
+<div class="section2">
+<h5>Previous Work</h5>
+  
+<div class="flex-container">
+  <img src="sketch.jpeg" alt="Previous work 1">
+  <img src="intitial photo.jpeg" alt="Previous work 2">
+  <img src="IMG_0653.png" alt="Previous work 3">
+    <p class="para3">Over the course of my first two years of university, I have created many projects and am constantly improving my skills. These images showcase the process of how one of my favourite projects came to be. This project in particular was creating a poster of a specific genre, which I chose horror. I instantly knew the idea I wanted to go for and within all my projects, I tend to start off with a sketch to get a general idea of what It will look like. Then I took some of the pictures and once I chose the best one I began the editing process and created the finalized version!  </p>
+
+</div>
+</div>
+
+<div class="section3">
+  <h6>
+    Interests
+  </h6>
+  <p class="para4">
+    One of my interests that I have always been passionate about was acting and modelling. My very first commercial I did was a drinking and driving commercial with MADD Canada back in June of 2019. 
+  </p>
+  <img src="IMG_0668.jpeg" alt="Home Page 1" width="460"height="345">
+  
+  <p class="para5">
+    The filming process took about 3 days and it was one of the most fun experiences I have ever gotten to experience! All of my castmates were really fun to work with and I hope I can continue and pursue this interest further in the future as it is something that I have always enjoyed. You can access the link to the video below!<br><a href="https://youtu.be/XBxiCZ7dmyI?si=eQia1XiyGtzuYLjZ">Heres a link to the video!</a>
+  </p>
+
+</div>
+<div class="section4">
+<h6>Contact</h6>
+<p style="font-size: 5em;font-family: 'Bebas Neue', serif;">Get in touch<br>with me!</p>
+<table style="width:100%">
+  <tr>
+    <td><img src="IMG_0664.png"alt="Gmail" width="40"height="40"></td>
+<td style="font-size: 15px; font-family: 'Roboto', serif; color: white;">
+  <a href="mailto:emacieje@uwaterloo.ca" style="color: white; text-decoration: underline; background: none;">emacieje@uwaterloo.ca</a>
+</td>
+  <td><img src="IMG_0663.webp"alt="Instagram" width="40"height="40"></td>
+  <td style="font-size: 15px; font-family: 'Roboto', serif; color: white;">
+    <a href="https://www.instagram.com/elvismaciejewski/profilecard/?igsh=bHE3ejZ0ZWRnNDhq" style="color: white; text-decoration: underline; background: none;">elvismaciejewski</a>
+    </td>
+  </table>
+</div>
+<p class="para5">
+   <a href="#section0">Back to Top</a>
+</p>
+</body>
+</html>
